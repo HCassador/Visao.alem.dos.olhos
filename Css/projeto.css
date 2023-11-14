@@ -1,0 +1,112 @@
+body{
+    background: linear-gradient(#A9A9A9, #696969);
+}
+
+header{
+    text-align: center;
+}
+
+.logo{
+    border-bottom: 5px solid white;
+    width: 100%;
+}
+
+main{
+    margin: 2em 5em;
+}
+
+.divisoes{
+    background-color: white;
+    padding: 1em;
+    width: 50%;
+
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 10px 2px #000000;
+}
+
+.nossoProjeto{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nossoProjeto li{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+    margin-bottom: 1em;
+}
+
+h2{
+    font-family:'Bebas Neue', sans-serif;
+    font-size: 1.5em;
+}
+
+.sensor{
+    width: 100%;
+    margin-bottom: .5em;
+}
+
+.codigoSensor{
+    width: 60%;
+    margin: 1em 0 2em 0;
+
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+.imagemDaCegaDaMonica{
+    text-align: center;
+    margin: 3em 3em 0;
+}
+
+.cegaDaMonica{
+    width: 35%;
+    float: right;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.15em;
+    margin-top: .5em;
+}
+
+strong{
+    font-weight: bold;
+}
+
+footer{
+    background-image: url(../Img/footerBG.jpg);
+
+    text-align: center;
+    padding: 3em;
+}
+
+.oculos{
+    width: 30%;
+}
+
+.textoFooter{
+    color: white;
+    font-size: 15px
+}
+
+@media screen and (max-width: 500px) {
+    .divisoes{
+        width: 100%;
+    }
+
+    .codigoSensor{
+        width: 100%;
+    }
+
+    .cegaDaMonica{
+        float: none;
+        width: 100%;
+        margin: 1em 5em 1em 0;
+    }
+}
